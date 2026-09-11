@@ -1,0 +1,23 @@
+print("Why did the chicken cross the road?")
+input()
+print("To get to the other side!")
+print("   ")
+print("Do you want to hear another joke?")
+print("  ")
+answer = input()
+if answer == "yes":
+    print("  ")
+    print("Why can't leopards play hide and seek?")
+    input()
+    print("Because they are always spotted!")
+    print("  ")
+    print("Do you want to hear another joke?")
+    print("  ")
+    answer = input()
+    if answer == "yes":
+        print("  ")
+        print("What did 0 say to 8?")
+        input()
+        print("Nice belt!")
+if answer == "no":
+    print ("Okay, bye!")
