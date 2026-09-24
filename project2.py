@@ -1,5 +1,5 @@
 answer1 = input("You wake up. Where will you go today, the mall or the zoo?: ")
-if answer1 == "mall":
+if answer1 == "mall" or answer1 == "the mall":
     answer2 = input("Are you going to buy anything?: ")
     if answer2 == "yes":
         answer3 = input("What are you going to buy?: ")
@@ -8,7 +8,7 @@ if answer1 == "mall":
         print("You go home without buying anything.")
     else:
         print("Please restart and answer yes or no.")
-if answer1 == "zoo":
+if answer1 == "zoo" or answer1 == "the zoo":
     answer4 = input("Which animal do you want to see first?: ")
     if answer4 == "lions":
         print("There are a few lions sitting out today. They're so cool!")
@@ -24,6 +24,6 @@ if answer1 == "zoo":
     elif answer5 == "no":
         print("You head home without visiting any other animals.")
     else:
-        print("Please restart and answer yes or no.")
+        print(f"You go see {answer5}, then head home.")
 print("")
 print("THE END")
