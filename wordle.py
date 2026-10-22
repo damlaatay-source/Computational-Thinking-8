@@ -35,9 +35,9 @@ else:
     output += "⬛"
 
 # fourth letter 
-if guess_word[3] == hidden_word[3]:
+if guess_word[2] == hidden_word[2]:
     output += "🟩"
-elif guess_word[3] in hidden_word:
+elif guess_word[2] in hidden_word:
     output += "🟨"
 else:
     output += "⬛"
